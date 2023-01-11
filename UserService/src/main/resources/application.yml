@@ -20,6 +20,9 @@ spring:
   config:
     import: configserver:http://localhost:8085
 
+#  profiles:
+#    active: prod
+
 #  eureka:
 #    instance:
 #      hostname: localhost
