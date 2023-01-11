@@ -41,4 +41,23 @@ public class RatingController {
         return ResponseEntity.ok(ratingList);
     }
 
+    @GetMapping("/{ratingId}")
+    public ResponseEntity<Rating> getRatingByRatingId(@PathVariable String ratingId) {
+        Rating ratingList = this.ratingService.getRatingByRatingId(ratingId);
+        return ResponseEntity.ok(ratingList);
+    }
+
+    @DeleteMapping("/{ratingId}")
+    public ResponseEntity<Rating> deleteRatingByRatingId(@PathVariable String ratingId) {
+        Rating deletedRating = ratingService.deleteRatingByRatingId(ratingId);
+        return ResponseEntity.ok(deletedRating);
+    }
+
+    @PutMapping("/{ratingId}")
+    public ResponseEntity<Rating> createRating(@PathVariable String ratingId, @RequestBody Rating rating) {
+
+        Rating updateRating = this.ratingService.updateRatingByRatingId(ratingId, rating);
+        return ResponseEntity.status(HttpStatus.OK).body(updateRating);
+    }
+
 }

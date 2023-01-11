@@ -10,4 +10,6 @@ public interface RatingRepositories extends JpaRepository<Rating, String> {
     List<Rating> findByUserId(String userId);
 
     List<Rating> findByHotelId(String hotelId);
+
+    Rating findByRatingId(String ratingId);
 }

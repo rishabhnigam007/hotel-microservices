@@ -28,8 +28,33 @@ public class RatingServiceImpl implements RatingService {
     }
 
     @Override
+    public Rating getRatingByRatingId(String ratingId) {
+        return ratingRepositories.findByRatingId(ratingId);
+    }
+
+    @Override
     public List<Rating> getRatingByUserId(String userId) {
         return ratingRepositories.findByUserId(userId);
+    }
+
+    @Override
+    public Rating updateRatingByRatingId(String ratingId, Rating rating) {
+        Rating updateRating = ratingRepositories.findByRatingId(ratingId);
+        updateRating.setRatingId(ratingId);
+
+        //if not set anything then previous saved valued will be there
+        updateRating.setRating(updateRating.getRating());
+        updateRating.setFeedback(updateRating.getFeedback());
+        updateRating.setUserId(updateRating.getUserId());
+        updateRating.setHotelId(updateRating.getHotelId());
+
+        // this is for new update record
+
+        updateRating.setRating(rating.getRating());
+        updateRating.setFeedback(rating.getFeedback());
+        updateRating.setUserId(rating.getUserId());
+        updateRating.setHotelId(rating.getHotelId());
+        return ratingRepositories.save(updateRating);
     }
 
     @Override
@@ -37,5 +62,10 @@ public class RatingServiceImpl implements RatingService {
         return ratingRepositories.findByHotelId(hotelId);
     }
 
-
+    @Override
+    public Rating deleteRatingByRatingId(String ratingId) {
+        Rating deletedRating = ratingRepositories.findByRatingId(ratingId);
+        ratingRepositories.deleteById(ratingId);
+        return deletedRating;
+    }
 }
