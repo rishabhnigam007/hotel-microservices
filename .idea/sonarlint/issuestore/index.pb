@@ -5,8 +5,6 @@ o
 NUserService/src/main/java/com/user/service/external/services/HotelService.java,9\4\946f6e9594c10a78ac3ce5373ff39a58315412c1
 
 OUserService/src/main/java/com/user/service/external/services/RatingService.java,d\f\df91e1bd9f8d4ddeffb3403bcd00bb6ff0153f55
-{
-KUserService/src/test/java/com/user/service/UserServiceApplicationTests.java,9\6\96816f9baea607fed02de3ce784ac52744fd2121
 
 OHotelService/src/main/java/com/hotel/service/service/impl/HotelServiceImpl.java,2\8\286806e13b811cfeb4685700eac2699f13657587
 m
