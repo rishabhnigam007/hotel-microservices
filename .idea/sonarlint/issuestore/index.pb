@@ -12,4 +12,16 @@ m
 y
 IHotelService/src/main/java/com/hotel/service/HotelServiceApplication.java,0\7\079a1c65f6f3399982ba575d78a75f04ebf139af
 Å
-QServiceRegistry/src/main/java/com/serviceregistry/ServiceRegistryApplication.java,a\c\ac4efa1a755fc8743bef2fd2d4631842b94f6786
+QApiGateway/src/main/java/com/servicegateway/ApiGateway/ApiGatewayApplication.java,a\0\a05b2fd48bb1b54bf8df9df6ffd5276d2bedbeb1
+}
+MHotelService/src/main/java/com/hotel/service/controllers/HotelController.java,6\6\6654af1eec5a3c97027919c8a198f7eecce120f1
+?
+application.yml,1\1\1116e8e6e492a185f4df7f55ff557cb2e5ac869a
+}
+MHotelService/src/main/java/com/hotel/service/controllers/StaffController.java,3\7\37ce39a0a32212c7a7231fed73494daddac0fe6f
+D
+HotelService/pom.xml,0\b\0b1b04a7738d5a206252579a5822e48aacf34991
+E
+RatingService/pom.xml,1\7\17c94409518c1e7435327edc6eeb0f44691a6c0d
+B
+ApiGateway/pom.xml,b\3\b34264349f0c5456ea28df0c6a7fc2c4055c3c35
