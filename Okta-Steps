@@ -1,0 +1,39 @@
+Step to open OKTA developer account:
+
+Step 1: go to this link and signup https://developer.okta.com/signup/
+
+Step 2: create new account or sign in with google account or Github account
+
+Step 3: after successfull login you will get okta dashboard https://dev-48528771-admin.okta.com/admin/getting-started
+
+Step 4: then go to Applications tab https://dev-48528771-admin.okta.com/admin/apps/active
+
+Step 5: then click create app integration and create new app
+
+Step 6: select OIDC (OpenID connect) and Web Application in that menu
+
+Step 7: give app name and select refresh token checkbox and skip other thing and save
+
+Step 8: then go to directory tab and create group and people
+
+Step 9: go to directory tab and select group tab and make new group https://dev-48528771-admin.okta.com/admin/groups
+
+Step 10: create two group or more for example I am creating two normal and admin group
+
+Step 11: then go to application tab and assign this group to users https://dev-48528771-admin.okta.com/admin/app/oidc_client/instance/0oa804xf9j3AiZcNy5d7/#tab-assignments
+
+Step 12: select option assign to groups and assign normal and admin then save
+
+Step 13: then assign to people and select user to assign 
+
+Step 14: we can create multiple people and assign group also using directory tab and go to people option and add new person https://dev-48528771-admin.okta.com/admin/users
+
+Step 15: create new person and give group and password also using set by admin and then save
+
+Step 16: then go to security tab and assign scope https://dev-48528771-admin.okta.com/admin/oauth2/as/aus7y0uh0nprJ7gvu5d7#scopes
+
+Step 17: create new scope for internal things click add scope and give name to internal
+
+Step 18: create new claim for claiming previliage access choose value type is set to Groups and set Filter matches regex and give ".*"  https://dev-48528771-admin.okta.com/admin/oauth2/as/aus7y0uh0nprJ7gvu5d7#claims
+
+Step 19: 

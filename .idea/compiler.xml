@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HotelService" />
-        <module name="ServiceRegistry" />
         <module name="ConfigServer" />
+        <module name="ServiceRegistry" />
         <module name="UserService" />
         <module name="RatingService" />
         <module name="ApiGateway" />
