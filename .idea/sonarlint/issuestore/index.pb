@@ -37,3 +37,17 @@ z
 JUserService/src/main/java/com/user/service/controllers/UserController.java,7\2\7224716c00c61a64a3c8b78fe2ae7df1a17dddba
 
 OConfigServer/src/main/java/com/config/ConfigServer/ConfigServerApplication.java,e\9\e93de477d720939fc4c336db68fc18798c68eca4
+Å
+QServiceRegistry/src/main/java/com/serviceregistry/ServiceRegistryApplication.java,a\c\ac4efa1a755fc8743bef2fd2d4631842b94f6786
+G
+ServiceRegistry/pom.xml,b\2\b2f5299d90119fb6177af96297562a7d5fe130f3
+
+OApiGateway/src/main/java/com/servicegateway/ApiGateway/models/AuthResponse.java,1\f\1fc233b1cef2c6b9b77e7e7e1410cd320e8f552d
+Å
+QApiGateway/src/main/java/com/servicegateway/ApiGateway/ApiGatewayApplication.java,a\0\a05b2fd48bb1b54bf8df9df6ffd5276d2bedbeb1
+B
+ApiGateway/pom.xml,b\3\b34264349f0c5456ea28df0c6a7fc2c4055c3c35
+Ü
+VApiGateway/src/main/java/com/servicegateway/ApiGateway/controllers/AuthController.java,6\d\6d9ec040c46697054f9c8eff62cf35dac5127e10
+Å
+QApiGateway/src/main/java/com/servicegateway/ApiGateway/config/SecurityConfig.java,2\6\265303247c295b46def9a909a0f4c34401bc94af

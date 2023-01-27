@@ -1,0 +1,12 @@
+
+{
+java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(¿ãÃŽÿÿÿÿÿ8ßÃ³øÝ0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò± ¸ÿÿÿÿÿ
+i
+java:S2259&"NA "NullPointerException" could be thrown; "getRefreshToken()" can return null.(Š¥¾ðýÿÿÿÿ
+f
+java:S2259'"KA "NullPointerException" could be thrown; "getExpiresAt()" can return null.(Ì÷Â¨üÿÿÿÿ
+i
+java:S1602)"SRemove useless curly braces around statement and then remove useless return keyword(™Øöõ
+a
+java:S1612)"KReplace this lambda with method reference 'GrantedAuthority::getAuthority'.(™Øöõ
