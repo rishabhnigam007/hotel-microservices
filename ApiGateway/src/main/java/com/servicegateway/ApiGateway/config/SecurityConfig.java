@@ -18,7 +18,7 @@ public class SecurityConfig {
                 .anyExchange()
                 .authenticated()
                 .and()
-                .oauth2Login()
+                .oauth2Client()
                 .and()
                 .oauth2ResourceServer()
                 .jwt();

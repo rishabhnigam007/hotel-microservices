@@ -38,7 +38,7 @@ public class MyConfig {
                 oAuth2AuthorizedClientRepository
         )));
         restTemplate.setInterceptors(interceptors);
-        return new RestTemplate();
+        return restTemplate;
     }
 
 
